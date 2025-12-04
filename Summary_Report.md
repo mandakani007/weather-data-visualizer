@@ -15,20 +15,24 @@ rainfall – daily rainfall
 The dataset was saved as CleanWeatherData.csv, and missing values were filled appropriately.
 
 3. Steps Performed
+
 ✔ 1. Loading the Data
 I loaded the CSV file using Pandas and checked the first few rows, info, and statistics.
+
 ✔ 2. Cleaning the Data
 Converted the date column to proper datetime format
 Kept only the required columns
 Handled missing data:
 Filled temperature and humidity with their mean
 Filled rainfall values with 0
+
 ✔ 3. Statistical Analysis
 I calculated important statistics such as:
 Mean temperature
 Minimum and maximum temperature
 Standard deviation
 Monthly averages (since dataset is only 30 days, 1 month)
+
 ✔ 4. Visualizations
 I created simple plots using Matplotlib:
 Line chart → daily temperature trend
@@ -45,10 +49,10 @@ The dataset helped me understand how weather patterns behave even in a short dur
 
 5. Conclusion
 This project helped me practice:
-1. Reading and cleaning data using Pandas
-2. Applying simple statistics using NumPy
-3. Building basic visualizations in Matplotlib
-4. Exporting clean data and understanding weather patterns
+Reading and cleaning data using Pandas
+Applying simple statistics using NumPy
+Building basic visualizations in Matplotlib
+Exporting clean data and understanding weather patterns
 
 It also gave me confidence in handling real-world datasets using Python.
 This mini project helped understand data cleaning, analysis, visualization, and exporting results using Pandas, NumPy, and Matplotlib.
