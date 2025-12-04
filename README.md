@@ -1,38 +1,37 @@
+# Weather Data Visualizer – Mini Project
 
-# weather-data-visualizer-Mandakani
+This is my mini project for the subject **Programming for Problem Solving using Python**.
+The project analyzes a **30-day weather dataset** and performs:
+- Data loading
+- Cleaning
+- Basic statistics
+- Grouping
+- Visualization
 
-**Author:** Mandakani (B.Tech CSE - Data Science, 1st Sem)
+## 📌 Files in this Repository
+- **Cleaned_Weather_Data.csv** → cleaned dataset (30 days)
+- **WeatherAnalysis.py** → main Python script
+- **SummaryReport.md** → simple project explanation
+- **README.md** → this file
 
-This project is part of my “Programming for Problem Solving using Python” course.  
-The aim is to load a weather dataset, clean it, analyze it, and visualize the results.
+## 📊 What the Code Does
+1. Loads the 30-day CSV file  
+2. Cleans missing values  
+3. Converts date column  
+4. Calculates mean, min, max, std  
+5. Groups by month  
+6. Creates the following plots:
+   - Daily Temperature Line Chart  
+   - Monthly Rainfall Bar Chart  
+   - Humidity vs Temperature Scatter Plot  
+   - Combined Plots Figure  
+7. Saves all plots as PNG images  
 
-## Tasks Completed
-- Loaded raw weather data (CSV)
-- Cleaned the dataset (handled missing values)
-- Converted date column to datetime format
-- Calculated daily and monthly statistics using NumPy and Pandas
-- Created visualizations:
-  - Daily temperature line chart
-  - Monthly rainfall bar chart
-  - Humidity vs temperature scatter plot
-  - Combined subplot figure
-- Grouped data by months and seasons
-- Exported cleaned data and summaries
-
-## Files
-- `weather_analysis.py` → Python file with full code
-- `weather_data_raw.csv` → Raw dataset
-- `cleaned_weather_data.csv` → Cleaned dataset
-- `images/` → Folder containing plot images
-- `Summary_Report.md` → Written summary of insights
-
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-
-
+## 📁 Plots Required
+- **daily_temperature.png**
+- **monthly_rainfall.png**
+- **humidity_vs_temp.png**
+- **combined_plots.png**
 
 
 
